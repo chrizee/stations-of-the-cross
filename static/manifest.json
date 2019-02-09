@@ -1,0 +1,20 @@
+{
+  "name": "stationsofthecross",
+  "short_name": "stations",
+  "icons": [
+    {
+      "src": "/static/img/icons/index-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/img/icons/index-225.png",
+      "sizes": "225x225",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#4DBA87"
+}
