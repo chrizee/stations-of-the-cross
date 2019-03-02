@@ -1,12 +1,12 @@
 <template>
     <div class="mdl-card mdl-shadow--2dp">
-        <h1>First station:</h1>
-        <h3>Jesus is condemned to death</h3>
+        <h3>First station:</h3>
+        <h5>Jesus is condemned to death</h5>
         <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone" >
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone mdl-cell--12-col-tablet">
                 <img src="https://www.catholic.org/images/ins_clife/station01.jpg" alt="first station" />
             </div>
-            <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-phone text-left">            
+            <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-phone text-left mdl-cell--12-col-tablet">            
                 <p><strong>Leader:</strong> We adore Thee, O Christ, and bless Thee.</p>
                 <p><strong>All:</strong> Because by Thy holy cross Thou hast redeemed the world.</p>  
                 <p>Jesus, you stand all alone before Pilate. Nobody speaks up for you. Nobody helps defend you. You devoted your entire life to helping others, listening to the smallest ones, caring for those who were ignored by others. They don't seem to remember that as they prepare to put you to death.</p>

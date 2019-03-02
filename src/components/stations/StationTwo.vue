@@ -1,7 +1,7 @@
 <template>
     <div class="mdl-card mdl-shadow--2dp">
-        <h1>Second station:</h1>
-        <h3>Jesus carries His cross</h3>
+        <h3>Second station:</h3>
+        <h5>Jesus carries His cross</h5>
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone" >
                 <img src="https://www.catholic.org/images/ins_clife/station02.jpg" alt="first station" />

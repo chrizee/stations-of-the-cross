@@ -4,7 +4,7 @@
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">Stations</span>
+      <span class="mdl-layout-title">Stations of the cross</span>
     </div>
     <!-- Tabs -->
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect" v-show="currentRoute === 'stations'">
@@ -15,26 +15,32 @@
       <a href="#scroll-tab-4" class="mdl-layout__tab">Tab 4</a>
       <a href="#scroll-tab-5" class="mdl-layout__tab">Tab 5</a>
       <a href="#scroll-tab-6" class="mdl-layout__tab">Tab 6</a>
+      <a href="#scroll-tab-7" class="mdl-layout__tab">Tab 7</a>
+      <a href="#scroll-tab-8" class="mdl-layout__tab">Tab 8</a>
+      <a href="#scroll-tab-9" class="mdl-layout__tab">Tab 9</a>
+      <a href="#scroll-tab-10" class="mdl-layout__tab">Tab 10</a>
+      <a href="#scroll-tab-11" class="mdl-layout__tab">Tab 11</a>
+      <a href="#scroll-tab-12" class="mdl-layout__tab">Tab 12</a>
+      <a href="#scroll-tab-13" class="mdl-layout__tab">Tab 13</a>
+      <a href="#scroll-tab-14" class="mdl-layout__tab">Tab 14</a>
     </div>
   </header>
-  <div class="mdl-layout__drawer">
+  <!-- <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Stations</span>
     <nav class="mdl-navigation">
       <router-link :to="{name: 'home'}" class="mdl-navigation__link" @click.native="hideMenu">Home</router-link>
       <router-link :to="{name: 'stations'}" class="mdl-navigation__link" @click.native="hideMenu">Stations</router-link>
       <router-link :to="{name: 'about'}" class="mdl-navigation__link" @click.native="hideMenu">About</router-link>
-     
     </nav>
-  </div>
+  </div> -->
   <main class="mdl-layout__content">
     <router-view></router-view>
   </main>
 </div>
-
 </template>
 
 <script>
-require('material-design-lite')
+// require('material-design-lite')
 
 export default {
   name: 'app',
@@ -45,6 +51,7 @@ export default {
   },
   computed: {
     currentRoute () {
+      console.log(this.$route.name)
       return this.$route.name
     }
   },
